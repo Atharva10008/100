@@ -1,0 +1,56 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>This is Simple Enotes Management System Develop by Abhinav Pandey, Anshika Srivastava & Atharva Srivastava. using Python Django, HTML, CSS, Bootstrp and sqlite.</p>
+  <p>This project anytime anywhere remember all queries of students Motivate peoples to use. Easy to use: E-Notes Project is very easy to use.</p>
+</div>
+<br><br>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/abhi.jpeg' %}" alt="Abhinav" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Abhinav Pandey</h2>
+        <p class="title">Developer</p>
+        <p>pandeyabhinav292@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/ANSHIpic.jpeg' %}" alt="Anshika" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Anshika Srivastava</h2>
+        <p class="title">Developer</p>
+        <p>anshikasri2002@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/ath.jpeg' %}" alt="Atharva" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Atharva Srivastava</h2>
+        <p class="title">Developer</p>
+        <p>atharva.sri.97@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+
